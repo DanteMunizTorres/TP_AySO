@@ -1,0 +1,144 @@
+ls -la
+ls -la /
+cat /etc/os-release
+man
+man man
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -la
+ls -la repogit/
+cd
+ls -la
+cd repogit
+ls -la
+git clone git@github.com:DanteMunizTorres/TP_AySO.git
+cd ..
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd repogit
+git clone git@github.com:DanteMunizTorres/TP_AySO.git
+git status
+cd repogit 
+cd TP_AySO/
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git status
+git add . 
+git config --global user.email muniztorresdante@gmail.com
+git config --global user.name dante_mt
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status 
+ls -la /proc
+grep "model name" /proc | head -n1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git status
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+man grep
+man man
+man -k “sort via a key”
+man sort
+ls -la /etc
+grep -v "nologin" /etc/passwd | sort -k7n | head -n10 >> lista_ordenada
+git status
+nano lista_ordenada
+exit
+q
+fafq
+dasadsd
+l 
+cclear
+asdY
+clear
+sdfasdf
+q
+ls -la
+cd repogit/
+ls -la
+cd TP_AySO/
+ls -la
+man
+man dump
+man man
+man network
+man -k "dump traffic"
+man tcpdump
+echo tcpdump
+echo tcpdump >> comando_dump_net
+echo man -k "dump traffic" >> comando_dump_net
+cat comando_dump_net
+git status
+git add .
+git status
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat README.md << EOF
+Alumno: Dante Muniz Torres
+División: 314
+Turno: noche
+EOF
+
+cat README.md 
+cat README
+cat README.md << EOF
+Alumno: Dante Muniz Torres
+División: 314
+Turno: noche
+EOF
+
+cat README.md
+ls -la
+cat datos_usuario.txt 
+cat README.md
+cat <<EOF >> README.mdAlumno: Dante Muniz TorresDivision: 314Turno: nocheEOF
+
+cat <<EOF >> README.mdAlumno: Dante Muniz TorresDivision: 314Turno: noche EOF
+
+
+
+cat <<EOF >> README.md Alumno: Dante Muniz Torres; Division: 314Turno: noche; EOF
+
+
+
+
+
+
+
+cat <<EOF >> README.md
+Alumno: <Tu-Nombre>
+División: <Tu-División>
+Turno: <Turno>
+EOF
+
+cat README.md
+cat << EOF README.md
+Alumno: Dante Muniz Torres
+División: 314
+Turno: noche
+EOF
+
+cat README.md
+cat << EOF >> README.md
+Agrego mas texto
+EOF
+
+cat README.md
+git status
+git add README.md
+git status
+git commit -m "ADD info de alumno en README"
+git status
+git stash
+git status
+ls -la
+rm README.mdAlumno\: 
+ls -la
+git status
+ls -la ./../..
+cat ./../../bash_history
+cat ./../../.bash_history
+history -a ./../../.bash_history
